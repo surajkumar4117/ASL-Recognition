@@ -32,7 +32,7 @@ def categorical_focal_loss(alpha=0.25, gamma=2.0):
     return loss
 
 # --------------------- Load Model ---------------------
-model = load_model("E:/CYG/asl_syn_128.h5", custom_objects={
+model = load_model("asl_syn_128.h5", custom_objects={
     'loss': categorical_focal_loss(alpha=0.25, gamma=2.0),
     'categorical_focal_loss': categorical_focal_loss
 })
