@@ -7,14 +7,6 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras import backend as K
 from PIL import Image
 
-st.markdown("## 🔍 Library Versions")
-
-st.write("**Streamlit version:**", st.__version__)
-st.write("**OpenCV (cv2) version:**", cv2.__version__)
-st.write("**TensorFlow version:**", tf.__version__)
-st.write("**NumPy version:**", np.__version__)
-st.write("**MediaPipe version:**", mp.__version__)
-st.write("**Pillow (PIL) version:**", Image.__version__)
 # --------------------- Streamlit Title ---------------------
 st.markdown(
     "<h3 style='text-align: center; color: black;'>SignifyAI : Real-Time ASL Recognition System</h3>",
