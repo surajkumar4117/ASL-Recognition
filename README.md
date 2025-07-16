@@ -1,6 +1,6 @@
 # 🤟 ASL Recognition System in Real-Time
 
-## 🚀 [Live Demo](https://your-streamlit-link-here.com)
+## 🚀 [Live Demo]([https://your-streamlit-link-here.com](https://signifyai-asl-recognition.streamlit.app/))
 
 An AI-powered real-time American Sign Language (ASL) recognition system that takes webcam input, detects the hand using MediaPipe, and recognizes ASL alphabets using a custom-trained deep learning model. Includes a user-friendly interface with a live notepad to collect recognized characters.
 
